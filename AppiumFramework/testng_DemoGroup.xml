@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+      <run>
+        <include name="DemoGroup"/>
+      </run>
+    </groups>
+
+   <listeners>
+     <listener class-name="org.mellonStathis.testUtils.Listeners"/>
+   </listeners>
+<!--
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.mellonStathis.AppiumFramework.EcommerceSmallTest"/>
+      <class name="org.mellonStathis.AppiumFramework.EcommerceAppFinalCheck"/>
+    </classes>
+  </test> 
+-->
+   <test name="SmallTest">
+     <classes><class name="org.mellonStathis.testCases.android.EcommerceSmallTest"/></classes>
+   </test>
+   <test name="FullCheck">
+     <classes><class name="org.mellonStathis.testCases.android.EcommerceAppFinalCheck"/></classes>
+   </test>
+</suite> <!-- Suite -->
