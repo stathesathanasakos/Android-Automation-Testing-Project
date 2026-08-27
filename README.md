@@ -1,6 +1,6 @@
 # AppiumFramework – Android Test Automation with Appium, TestNG & Page Object Model
 
-An automated testing framework for Android mobile apps, built with **Appium (java-client)**, **Selenium**, **TestNG**, and **Maven**. It's used as a demo project against the **General Store** app () and covering some basic scenarios of this app, like filling out the user form, adding products to the cart, verifying the total amount, and completing a purchase.
+An automated testing framework for Android mobile apps, built with **Appium (java-client)**, **Selenium**, **TestNG**, and **Maven**. It's used as a demo project against the **General Store** app (find it following https://rahulshettyacademy.com/practice and the searching for 'General Store apk') and covering some basic scenarios of this app, like filling out the user form, adding products to the cart, verifying the total amount, and completing a purchase.
 
 ---
 
@@ -183,7 +183,6 @@ This makes it easy to extend test cases — a new dataset just means a new row i
 ---
 
 
----
 
 ## Possible Future Improvements
 
